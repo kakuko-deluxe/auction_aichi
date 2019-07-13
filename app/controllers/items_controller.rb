@@ -14,9 +14,9 @@ class ItemsController < ApplicationController
     redirect_to @item
   end
   def edit
-    @item = Item.find(item_params[:id])
-    
+  @item = Item.find(params[:id])
   end
+
 
   private
 
