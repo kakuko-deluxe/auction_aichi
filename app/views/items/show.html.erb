@@ -20,5 +20,6 @@
 <p>
   <%= link_to "編集", edit_item_path(@item) %>
   <%= link_to "削除", item_path(@item), method: :delete, data: {confirm: "Delete OK ?"} %>
+  <%= link_to "戻る", items_path %>
 </p>
 
